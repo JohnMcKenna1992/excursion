@@ -1,8 +1,8 @@
-html{
+html {
   font-size: 16px;
 }
 
-body{
+body {
   background-color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
@@ -10,12 +10,47 @@ body{
   text-align: center;
 }
 
-.header-main{
-  font-size: 50px;
-  font-weight: normal;
+.container {
+  display: block;
+  width: 100%;
+  margin: 1rem auto;
 }
 
 .download-link {
   color: aquamarine;
   font-size: 16px;
+}
+
+.section-heading {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.section-detail {
+  font-size: 21px;
+  font-weight: normal;
+  color: gray;
+}
+
+/*--Header--*/
+
+.header-main {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+/*--Video--*/
+
+/*--Product Description--*/
+
+.camp-img img {
+  max-width: 100%;
+}
+
+/*--Closing Message--*/
+
+/*--Footer--*/
+
+.copyright {
+  text-align: right;
 }
